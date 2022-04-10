@@ -2,10 +2,40 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+const tf = require('@tensorflow/tfjs')
+// import * as tf from '@tensorflow/tfjs';
+
 app.get('/', (req, res) => {
-  res.send('Hello Test!')
+  
+
+  // Define a model for linear regression.
+const model = tf.sequential();
+model.add(tf.layers.dense({units: 1, inputShape: [1]}));
+
+model.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
+
+// Generate some synthetic data for training.
+const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
+const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
+
+// Train the model using the data.
+model.fit(xs, ys, {epochs: 10}).then(() => {
+  // Use the model to do inference on a data point the model hasn't seen before:
+  model.predict(tf.tensor2d([5], [1, 1])).print();
+  // Open the browser devtools to see the output
+});
+
+res.send('Hello 1!')
+
 })
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+
+
+
+
+
+  
