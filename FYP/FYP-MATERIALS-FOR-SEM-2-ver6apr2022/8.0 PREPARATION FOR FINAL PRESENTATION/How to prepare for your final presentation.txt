@@ -1,0 +1,96 @@
+
+ 
+SLIDE 1:
+
+Project Title: School Managment System (SMS)
+
+Your full name ( TP-number )
+Intake
+Course 
+
+Name of supervisor:
+
+Name of 2nd marker:
+
+-----------------
+SLIDE 2:
+
+Problem statements
+
+SLIDE 3:
+
+Aim: To
+Objectives: To
+
+SLIDE 4:
+
+    
+     
+    Target Users:
+     
+    Students, Teachers, Administrators
+
+Functionalites of the system
+
+    The SMS allows the Students,
+    . To sign-up (register) to SMS
+    . To sign-in (log-in) to SMS 
+    . To edit their profile
+    . To change their password
+
+    The SMS allows the Teachers,
+    . To sign-up (register) to SMS
+    . To sign-in (log-in) to SMS 
+    . To edit their profile
+    . To change their password 
+    . To add the profile of a new student
+    . To edit the profile of any existing       student
+
+SLIDE 4-1:
+          Comapny Background (For BIT/BIS           students only)
+
+SLIDE 5: Domain Research
+SLIDE 6: Similar System/s
+       
+
+SLIDE 7: Technical Research
+
+    System Development Methodolgy chosen:
+    Programming Language(s) chosen:
+    Database Management System chosen:
+    Tools / technolgy used / chosen: 
+
+SLIDE 8:
+       Business Case (For BIT/BIS                     students only)
+       What business analsysis you have done
+       - keep it short and precise 
+
+
+  
+SLIDE 9: Primary research done
+    Interview - 
+    - Number of students interviewed -
+    - Number of teachers interviewed -
+    Questionnaire :
+    Received response from 50
+
+SLIDE 10: Design (Use-case / Context / etc)
+
+SLIDE 11: Implementation
+         A maximum of 5 screenshots
+
+SLIDE 12: Testing
+     Unit testing: done by developer
+     User Acceptance Testing: 3 users involved
+     Outcomes of User Acceptance Testing:
+
+SLIDE 13: Problems & Limitations 
+SLIDE 14: Future Enhancements
+     
+
+SLIDE 15: Conclusion
+     - programming skill has been improved
+     - time management has been improved
+     - documentation skill has been improved
+SLIDE 16: Q & A
+
