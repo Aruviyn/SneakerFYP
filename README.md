@@ -1,3 +1,5 @@
+FYP For sneaker classification using tensorflow. Dataset can be obtained [Here](https://www.kaggle.com/datasets/sebastiaanjohn/sneakers)
+
 # Gradle implementation
 
 The build and management of this project is done through Gradle. Gradle is an open-source build automation tool that is designed to be flexible enough to build almost any type of software.
